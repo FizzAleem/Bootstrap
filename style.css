@@ -1,0 +1,98 @@
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing:border-box;
+}
+
+.navbar{
+    background-color:#042536;
+}
+
+hr{
+    background-color: white;
+    border-color: white;
+    width:90px;
+    min-height:5px;
+ 
+
+}
+.star{
+    padding:0px;
+}
+.star img,.star hr{
+    display:inline-block;
+}
+.star img{
+    margin-top: -30px;
+    width: 35px; 
+    height: 35px;
+}
+.navbtnColor{
+    width: 100%;
+    height: 100px;
+}
+.navbar-brand{
+    font-size: 50px;
+}
+.navbtnColor button{
+    background-color: rgb(9, 192, 137);
+}
+.downloadbtn button{
+    background-color: transparent;
+}
+button[type=submit]{
+    background-color: rgb(9, 192, 137);
+}
+.rounded-circle{
+    max-width: 50px;
+    max-height: 170px;;
+}
+.footer-area{
+    width:100%; 
+    background-color:#042536 ;
+}
+.foot-end{
+    background-color: #0a121d; 
+    height: 50px;
+    text-align: center;
+}
+.blackLine{
+    background-color: black;
+}
+.section1{
+    background-color: #3ec9a0 ; 
+    width:100%;
+}
+.section1 .rounded-circle{
+    background-color: #042536; 
+    min-width:240px;
+     min-height:240px;
+     float: none; 
+     margin: 0 auto; 
+}
+.section1 .rounded-circle .img-responsive{
+    width: 200px; 
+    height: 200px; 
+}
+.section1 img{
+    width: 35px; 
+    height: 35px; 
+}
+.portfolio{
+    width:100%;
+}
+.portfolio #img1{
+    flex-basis: 28%; 
+    min-width: 300px; 
+    height: 210px;
+}
+.portfolio #img1 img{
+    min-width: 210px;
+}
+#cakeimg{
+    min-width: 250px;
+}
+.aboutSection{
+    background-color: #3ec9a0 ; 
+    width:100%;
+}
